@@ -3,9 +3,9 @@
  */
 export default class Validation {
   constructor(paySistem) {
-    this.regex1 = new RegExp('^[0-9]{14}$');
-    this.regex2 = new RegExp('^[0-9]{15}$');
-    this.regex3 = new RegExp('^[0-9]{16}$');
+    this.regex1 = '/^[0-9]{14}$/';
+    this.regex2 = '/^[0-9]{15}$/';
+    this.regex3 = '/^[0-9]{16}$/';
     this.paySistem = paySistem;
   }
 
